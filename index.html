@@ -16,7 +16,9 @@
     color: #fff;
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-    
+    background-color: rgba(0, 0, 0, .5);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    line-height: 1.5 ;
     }
 
     html,body{
@@ -26,43 +28,53 @@
     #intro{
         background-image: url("State-taxes-California.jpeg");
         background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
+        background-size:cover;
+        height:inherit;
+    }
+
+    .cover{
+        padding: 0 1.5rem;
+    }
+
+    .nav-masthead .active {
+        color: #fff;
+        border-bottom-color:#fff;
     }
 
 
 </style>
-<body class="text-center d-flex justify-content-center">
+<body class="text-center d-flex flex-column justify-content-center">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-
-<div id="intro" class="bg-image shadow-2-strong d-flex flex-column">
-    <div class="mask d-flex flex-column" style="background-color: rgba(0, 0, 0, .8);">
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-    <header class="masthead mb-auto flex-column">
-        <div class="inner">
-            <h3 class="masthead-brand">Lance's Page</h3>
-            <nav class="nav nav-masthead justify-content-center">
+     
+<div id="intro" class="bg-image shadow-2-strong">
+    
+    <div class="mask d-flex flex-column h-100" style="background-color: rgba(0, 0, 0, 0.8);"> 
+    
+        <header class="masthead mb-auto d-flex flex-column">
+            <div class="inner d-flex flex-column">
+                <h3 class="masthead-brand" style="padding-top: 50px;">Lance's Page</h3>
+                <nav class="nav nav-masthead justify-content-center d-flex flex-row">
                 <a class="nav-link active" href="#">Welcome</a>
                 <a class="nav-link" href="#">About Me</a>
                 <a class="nav-link" href="#">Contact Me</a>
-            </nav>
-        </div>
-    </header>
-    <main role="main" class="inner cover">
+                </nav>
+            </div>
+        </header>
+        <main role="main" class="inner cover d-flex flex-column">
         <h1 class="cover-heading">Welcome to My Page</h1>
-        <p class="lead">
+        <p class="lead d-flex flex-column">
             My name is Lance. Thank you for visiting my page. There is currently nothing much interesting. Visit this site regularly to check for updates.
         </p>
         <p class="lead">
             <a class="btn btn-lg btn-secondary" href="#">Learn more about Lance?</a>
         </p>
-    </main>
-    <footer class="mastfoot mt-auto flex-column">this is a footer</footer>
-</div>
-</div>
+        </main>
+        <footer class="mastfoot mt-auto d-flex flex-column"><small>© 2021 by Lance Lee. All rights reserved</small></footer>
+    </div>
+    
 </div>
 
 
