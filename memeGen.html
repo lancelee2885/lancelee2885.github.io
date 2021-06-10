@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lance's Meme Generator</title>
+    <link rel="stylesheet" href="memeStyle.css">
+</head>
+<body style="height:100%; width:100%">
+
+    <div>
+        <!-- input goes here -->
+        <form action="" id="form">
+            <div id="url">
+                <label for="imageSource">Image Source: </label>
+                <input type="url" id="imageSource" required>
+            </div>
+            <div id="inputTop">
+                <label for="topText">Text On Top: </label>
+                <input type="text" id="topText">
+            </div>
+            <div id="inputBot">
+                <label for="bottomText">Text At Bottom: </label>
+                <input type="text" id="bottomText">
+            </div >
+            <div id="inputSubmit">
+                <input type="submit" value="Add Meme" id="addMeme">
+            </div>
+        </form>
+    </div>
+
+    <div id = "description">
+        <h1>Generated Memes</h1>
+        <h3>Click on memes to remove</h3>
+    </div>
+    <div id="memeCanvas" class="container" style="display: flex; flex-wrap: wrap;">
+        <!-- This is where image goes -->
+        
+        
+    </div>
+    <script src = "memeGenCode.js"></script>
+</body>
+</html>

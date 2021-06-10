@@ -1,0 +1,40 @@
+body{
+    background-color: skyblue;
+}
+
+#form {
+    margin: auto;
+    padding: 50px;
+    border: 3px solid;
+    background-color: rgb(164, 132, 185)  
+}
+
+#form > div{
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    
+}
+
+#memeCanvas {
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    justify-content:space-evenly
+    
+    
+}
+
+#memeText {
+    font-size:35px;
+}
+
+
+#description{
+    padding-top: 30px;
+    margin: auto;
+}
