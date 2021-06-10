@@ -1,8 +1,6 @@
 window.onload = function(){
     let form = document.getElementById("form")
     let imageCanvas = document.getElementById("memeCanvas");
-    let allMeme = document.querySelectorAll("meme") ;
-    let removeAll = document.getElementById("removeAll");
 
     form.addEventListener("submit", function(event){
         event.preventDefault();
