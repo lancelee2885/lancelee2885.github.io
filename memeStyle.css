@@ -13,10 +13,12 @@ body{
     margin: auto;
     padding-top: 10px;
     text-align: center;
+    font-weight: bold;
 }
 
 div {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
     
 }
 
@@ -37,4 +39,9 @@ div {
 #description{
     padding-top: 30px;
     margin: auto;
+}
+
+#addMeme{
+    background-color: khaki;
+    border-radius: 20px;
 }
