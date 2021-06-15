@@ -1,0 +1,80 @@
+/* you can add to or change this. */
+
+body{
+  background-color: wheat;
+}
+
+#game{
+  text-align: center;
+  flex-wrap: wrap;
+  align-self: center;
+  width: 40%;
+  margin:auto;
+}
+
+#game div {
+  
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.red{
+  background-color: red;
+}
+
+.red:hover{
+    cursor: pointer;
+    /*border: 1px solid black;*/
+    box-shadow: inset 0px 0px 0px 3px black;
+    box-sizing: border-box;
+}
+
+.orange{
+  background-color: orange;
+}
+
+.orange:hover{
+  cursor: pointer;
+  /*border: 1px solid black;*/
+  box-shadow: inset 0px 0px 0px 3px black;
+  box-sizing: border-box;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.blue:hover{
+  cursor: pointer;
+  /*border: 1px solid black;*/
+  box-shadow: inset 0px 0px 0px 3px black;
+  box-sizing: border-box;
+}
+
+.purple{
+  background-color: purple;
+}
+
+.purple:hover{
+  cursor: pointer;
+  box-shadow: inset 0px 0px 0px 3px black;
+  box-sizing: border-box;
+}
+
+.green{
+  background-color: green;
+}
+
+.green:hover{
+  cursor: pointer;
+  /*border: 1px solid black;*/
+  box-shadow: inset 0px 0px 0px 3px black;
+  box-sizing: border-box;
+}
+
+#hidden-color{
+  background-color: gray;
+}
